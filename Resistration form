@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistration form</title>
+    <link rel="stylesheet" href="form1.css  ">
+</head>
+<body>
+    <fieldset style="height: 800px; width: 50%; background-color: cyan;">
+        <legend>
+            <h1 style="text-align: center;">
+                Student Resistration Form
+            </h1>
+        </legend>
+    <div>
+    <form action="https://www.google.com" >
+        
+    <div>
+        Name of the student : <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last name">
+        </div>
+        <div>
+        <br>
+            Father Name : <input type="text" placeholder="Enter your father name">
+        </div>
+        <br>
+        <div>
+            Mother Name :  <input type="text" placeholder="Enter your mother  name">
+        </div>
+        <br>
+        <div>
+            Phone No  :  <input type="text" placeholder="Enter your Phone.No.">
+        </div>
+        <br>
+        <div>
+            Name : <input Enter your type="text" placeholder="First name" >
+        </div>
+        <br>
+        <div>
+            Email : <input type="text">
+        </div>
+        <br>
+        <div>
+            Male : <input type="radio" name="my gender">
+            Female : <input type="radio" name="my gender">
+            Others : <input type="radio" >
+        </div>
+        <br>
+        <div>
+            Date of Birth : <input type="date">
+        </div>
+        <br>
+        <div>
+            Address : <input type="text" name="" id="">
+        </div>
+        <br>
+        <div>
+            Blood Group : <select name="drop-dwon" id="blood">
+            <option value="O+">O+</option >
+            <option value="AB">AB</option>
+            <option value="B+">B+</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B-">B-</option>
+        </select>
+        </div>
+        <br>
+            Department : <select name="drop-dwon" id="Department">
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+                <option value="ELEC">ELEC</option>
+                <option value="MECH">MECH</option>
+                <option value="CHEM">CHEM</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="META">META</option>
+                <option value="biomed">biomed</option>
+            </select>
+            
+        <div>
+            <br>
+            Chose course : C++ : <input type="radio">,
+            DSA : <input type="radio">,
+            JAVA : <input type="radio">,
+            WEB DEVELOPMENT : <input type="radio">,
+            HTML/CSS/BOOTSTRAP<input type="radio">
+        </div>
+        <br>
+        <div>
+            <button type="submit">submit</button>
+            <br>
+            <br>
+            <button type="reset">reset</button>
+            
+        </div>
+    </div>
+    </fieldset>
+    </form>
+
+</body>
+</html>
